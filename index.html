@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form action="#" id="practiceForm">
+    <form onsubmit="validateForm()" id="practiceForm">
         <label for="email">Email</label>
         <input type="email" name="email" id="email">
         <label for="country">Country</label>
@@ -20,7 +20,7 @@
             <option value="Canada">Canada</option>
         </select>
         <label for="zip">Zip</label>
-        <input name="zip" id="zip" type="text">
+        <input type="number" name="zip" id="zip" type="text">
         <label for="pw">Password</label>
         <input type="password" name="pw" id="pw">
         <label for="pw2">Password Confirmation</label>
